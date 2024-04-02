@@ -11,6 +11,71 @@ The project, in detail, consists of the realisation of a system that checks the 
 
 In each game, there is a word to be guessed. After each attempt, a sequence of symbols (composed of +, | or /) is printed, which gives us information about each character in the attempt. In the symbol sequence there is + if the character in the corresponding position of the attempt is in the correct position, there is | if that character is present in the word to be guessed but in the wrong position, / if that character is not present at all in the word to be guessed.
 
+## Performance
+
+<table>
+  <tr>
+    <th></th>
+    <th>Time usage [s]</th>
+    <th>Maximum time usage [s]</th>
+    <th>Memory usage [MB]</th>
+    <th>Maximum memory usage [MB]</th>
+      <th>Completion</th>
+    
+  </tr>
+  <tr>
+    <th>UPTO18</th>
+    <th>0,72</th>
+    <th>0,8</th>
+    <th>10,7</th>
+    <th>18</th>
+      <th>✅</th>
+    
+  </tr>
+  <tr>
+    <th>UPTO21</th>
+    <th>14,6</th>
+    <th>25</th>
+    <th>80,3</th>
+    <th>130</th>
+      <th>✅</th>
+    
+  </tr>
+  <tr>
+    <th>UPTO24</th>
+    <th>13,5</th>
+    <th>25</th>
+    <th>82,1</th>
+    <th>130</th>
+      <th>✅</th>
+    
+  </tr>
+  <tr>
+    <th>UPTO27</th>
+    <th>15,6</th>
+    <th>25</th>
+    <th>64,5</th>
+    <th>130</th>
+      <th>✅</th>
+  </tr>
+  <tr>
+    <th>UPTO30</th>
+    <th>9,3</th>
+    <th>25</th>
+    <th>56</th>
+    <th>130</th>
+      <th>✅</th>
+  </tr>
+  <tr>
+    <th>CUMLAUDE</th>
+    <th>32,3</th>
+    <th>50</th>
+    <th>98,1</th>
+    <th>170</th>
+      <th>✅</th>
+  </tr>
+</table>
+
 ## How to Play
 Once started, the system reads from standard input:
 - a k value indicating the length of the words
