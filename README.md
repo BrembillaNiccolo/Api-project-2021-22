@@ -28,7 +28,7 @@ Both during and between games, the commands `+inserisci_inizio` and `+inserisci_
 
 A game ends if the word is guessed after which it is printed ok, or if the last attempt is also wrong after which it is printed ko.
 
-For full explanation see [pdf]().
+For full explanation see [pdf](Specs/ENG.pdf).
 
 
 ## Implementations
